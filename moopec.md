@@ -48,18 +48,6 @@ pandoc -t beamer -H latex_preamble.tex -s --bibliography assignments.bib --filte
 - File system based
 - Contests and problems may be created by adding files
 
-# Creating problems in Mooshak
-
-- Name, letter and description
-- Limits (e.g., CPU, memory)
-- Each test
-	- input and output
-	- Arguments
-	- Context
-	- How many points?
-	- Is it shown?
-	- Feedback
-
 # How to tackle different problem types?
 - Compiler
 - Static corrector
@@ -78,6 +66,18 @@ Algorithm
 
 Buggy code
  : Compiler or Static corrector
+
+
+# Creating problems in Mooshak
+- Name, letter and description
+- Limits (e.g., CPU, memory)
+- Each test
+	- input and output
+	- Arguments
+	- Context
+	- How many points?
+	- Is it shown?
+	- Feedback
 
 # DSL
 NAME
@@ -166,24 +166,23 @@ SHOW
 ![](feedback_mooshak2.png){ width=45% }
 
 # Anatomy of a project
-- Created using Moopec
-- Implemented as a contest with 6 problems
-- Each problem was worth 100 points
-- Each problem had its own description and several examples
-- 5 deliverables
+- 5 deliverables (all tests are shown)
 	1. 50 tests
 	1. 50 tests
 	1. 52 tests
 	1. 100 tests
 	1. 40 tests
-- All tests were shown
 - Final tests: 40 blind tests
+- Created using Moopec
+- Implemented as a contest with 6 problems
+- Each problem was worth 100 points
+- Each problem had its own description and several examples
 
 # Anatomy of a project: feedback
 - Students could see the first test that failed
 - They could ask for help solving the problems with their code in Slack
 - Slack had 8435 messages
-- Tutoring was also available during classes and by videoconference
+- Tutoring was also available by videoconference
 
 # Anatomy of a project: feedback on Slack
 
